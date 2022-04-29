@@ -9,4 +9,4 @@ d = int(input("Czas trwania wydarzenia (minuty): "))
 # wprowadź tutaj swój kod
 km = ((m + d)%60) #obliczenie minuty końca wydarzenia
 kg = (int(h+(m+d)/60))%24 #obliczenie godziny końca wydarzenia
-print(kg, ":", km)
+print(kg, ":", km, sep="")
